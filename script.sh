@@ -1,0 +1,1 @@
+aws cloudformation deploy --template-file cloudfront.yml --stack-name production-distro --parameter-overrides PipelineID="my120567318324bucket" --tags project=udapeople
